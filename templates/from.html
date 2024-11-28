@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylefrom.css">
+    <link rel="icon" href="static/favicon.ico">
+    <title>Pokémon</title>
+</head>
+<style>
+
+.img {
+    position: absolute; 
+    top: 20px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 140px;
+    height: 150px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+}
+
+</style>
+<body>
+    <div class="name">{{poke}}</div>
+    <div class="type">{{type}}</div>
+    <div class="habs">Habs:</div>
+    <div class="hps">Hp:</div>
+    <div class="atk">Atk:</div>
+    <div class="def">Def:</div>
+    <div class="hab1">{{hab1}}</div>
+    <div class="hab2">{{hab2}}</div>
+    <div class="hp">{{hp}}</div>
+    <div class="attack">{{attack}}</div>
+    <div class="special_attack">{{special_attack}}</div>
+    <div class="defense">{{defense}}</div>
+    <div class="special_defense">{{special_defense}}</div>
+    <div class="pokedex"></div>
+    <div id="pokedex" class="img" style="background-image: url('{{ api }}');"></div>
+    <form action="/" method="POST">
+        <button class="submit" type="submit">Pesquisar novamente</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,269 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;          
+    margin: 0;            
+    background-color: #000000; 
+    background-image: url(/static/3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.pokedex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 600px;
+    background-color: #000000;
+    opacity: 100%;
+    border-radius: 15px;
+    background-image: url("/static/pokedex1.jpg");
+    background-size: cover;
+}
+
+.name {
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 2, 2);
+    width: 80px;
+    height: 20px;
+    background-color: #b3a3a3;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.type {
+    top: 130px;
+    left: 59%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 2, 2);
+    width: 50px;
+    height: 20px;
+    background-color: #1b8798;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.hab1 {
+    top: 185px;
+    left: 46%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 90px;
+    height: 20px;
+    background-color: #23145b;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.hab2 {
+    top: 185px;
+    left: 56%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 90px;
+    height: 20px;
+    background-color: #23145b;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.habs {
+    top: 185px;
+    left: 38%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 15px;
+    height: 20px;
+    background-color: #160d18;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.hps {
+    top: 210px;
+    left: 38%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 15px;
+    height: 20px;
+    background-color: #160d18;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.hp {
+    top: 210px;
+    left: 46%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 90px;
+    height: 20px;
+    background-color: #8a1922;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.attack {
+    top: 235px;
+    left: 46%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 90px;
+    height: 20px;
+    background-color: #b3c631;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.special_attack {
+    top: 235px;
+    left: 56%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 90px;
+    height: 20px;
+    background-color: #97e54e;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.atk {
+    top: 235px;
+    left: 38%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 15px;
+    height: 20px;
+    background-color: #160d18;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.def {
+    top: 260px;
+    left: 38%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 15px;
+    height: 20px;
+    background-color: #160d18;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.defense {
+    top: 260px;
+    left: 46%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 90px;
+    height: 20px;
+    background-color: #b3c631;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.special_defense {
+    top: 260px;
+    left: 56%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255 255 255);
+    width: 90px;
+    height: 20px;
+    background-color: #97e54e;
+    opacity: 80%;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    padding: 0 20px;
+}
+
+.submit {
+    left: 620px;
+    position: absolute;
+    color: #ffffff;
+    background-color: #974f2f;
+    justify-content: space-between;
+    text-align: center;
+    width: 160px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
