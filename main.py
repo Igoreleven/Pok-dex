@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-@app.route("/", methods=['POST'])
+@app.route("/", methods=['GET', 'POST'])
 def homepage():
     return render_template('index.html')
 
@@ -100,7 +100,7 @@ def search():
     for stat in stats:
         if stat['stat']['name'] == 'special-defense':
             special_defense = stat.get('base_stat')
-            print("special_defense:", special_defense)
+            print("special defense:", special_defense)
 
 
 
